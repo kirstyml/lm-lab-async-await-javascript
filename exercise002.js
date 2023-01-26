@@ -1,6 +1,7 @@
 import fetch from "node-fetch";
 
 const jsonTypicode = "https://jsonplaceholder.typicode.com/todos/1";
+const randomDog = "https://random.dog/woof.json";
 
 // const fetchData = (apiEndPoint) => {
 //   fetch(apiEndPoint)
@@ -20,3 +21,4 @@ const fetchData = async(apiEndPoint) => {
 };
 
 fetchData(jsonTypicode);
+fetchData(randomDog);
